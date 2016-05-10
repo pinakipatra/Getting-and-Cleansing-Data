@@ -58,7 +58,7 @@ In addition, files README.txt and features_info.txt were used to infer infer inf
 * Type: character 
 * Categories: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING 
 
-**3.ActivityNumber**
+**3.ActivityNum**
 * Activity number 
 * Type: number
 
@@ -312,8 +312,8 @@ In addition, files README.txt and features_info.txt were used to infer infer inf
 * Type: numeric
 
 **66.frequencyBodyGyroscopeMagnitude.MEAN..**
-•	  Mean value of the magnitude of the FFT of the body angular velocity
-•	  Type: numeric
+* Mean value of the magnitude of the FFT of the body angular velocity
+* Type: numeric
 
 **67.	frequencyBodyGyroscopeMagnitude.SD..**
 * Standard deviation of the magnitude of the FFT of the body angular velocity
