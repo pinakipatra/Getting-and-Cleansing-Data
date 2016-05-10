@@ -1,53 +1,85 @@
 ##Code Book
 For the Human Activity Recognition Using Samsung Galaxy Smartphone tidy dataset TidyData.txt created by the run_analysis.R script.
-I. Raw data files
+
+###I. Raw data files
+
+
 Data files that are used to create TidyData  is available from the unzipped raw dataset folder ‘UCI HAR Dataset’.
+
 •	Training set
+
 o	‘train/X_train.txt’: measurements for 561 variables
 o	‘train/y_train.txt’: activity labels
 o	‘train/subject_train.txt’: subject identifier
+
 •	Test set
+
 o	‘test/X_test.txt’: measurements for 561 variables
 o	‘test/y_test.txt’: activity labels
 o	‘test/subject_test.txt’: subject identifier
+
 •	Features/Variables
+
 o	‘features.txt’: list of all features estimated from the measured signals
+
 •	Activities
+
 o	‘activity_labels.txt’: links activity labels to activity names
+
 In addition, files ‘README.txt’ and ‘features_info.txt’ were used to infer infer information about the raw dataset measurements, files structure, and variables.
-II. Notes on summaries and nomenclature
+
+###II. Notes on summaries and nomenclature
+
 •	Summaries
+
 o	Variables [4:69]: are averaged, as mean values, for each subject and each activity.
+
 •	Nomenclature
+
 o	“body” designates the volunteer person physical body.
 o	“FFT” designates the Fast Fourier Transform.
 o	“X (or Y,Z) direction” designates the X axial direction.
-III. Variables units
+
+###III. Variables units
+
 •	Variables [1:3]: categorical
 •	Variables [4:69]: normalized and bounded within [-1,1]
 
 
-VI. Variables dictionnary
+###VI. Variables dictionnary
+
 1.	Subject
+
 •	Identifier assigned to the volunteer person who performed the experiment Type: 
 •	numeric   Range: 1..30
+
 2.	ActivityName
+
 •	  Daily-living activity performed by the person
 •	  Type: character 
 •	  Categories: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING 
+
 3.	ActivityNumber
+
 •	Activity number 
 •	 Type: number
 4.	timeBodyAccelerometer.MEAN…X
+
 •	Mean value of the body acceleration signal in the X direction 
 •	  Type: numeric
+
 5.	timeBodyAccelerometer.MEAN…Y
+
 •	  Mean value of the body acceleration signal in the Y direction
 •	  Type: numeric
+
 6.	timeBodyAccelerometer.MEAN…Z
+
 •	  Mean value of the body acceleration signal in the Z direction
 •	  Type: numeric
+
 7.	timeBodyAccelerometer.SD…X
+
 •	  Standard deviation of the body acceleration signal in the X direction
 •	  Type: numeric
 
