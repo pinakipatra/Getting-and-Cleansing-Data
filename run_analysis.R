@@ -1,8 +1,6 @@
 ###Task 1
 ###Download the zip file from the given location
 
-filesPath <- "C:/pinaki/data science/data"
-setwd(filesPath)
 fileUrl<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileUrl,destfile="./Dataset.zip")
 
@@ -17,7 +15,7 @@ library(tidyr)
 
 # Read subject files
 
-filesPath <-"C:/pinaki/data science/data/UCI HAR Dataset"
+filesPath <-"./UCI HAR Dataset"
 dataSubjectTrain <- tbl_df(read.table(file.path(filesPath, "train", "subject_train.txt")))
 dataSubjectTest  <- tbl_df(read.table(file.path(filesPath, "test" , "subject_test.txt" )))
 
