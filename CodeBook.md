@@ -9,9 +9,7 @@ Data files that are used to create TidyData  is available from the unzipped raw 
 #####Training set
 
 * train/X_train.txt: measurements for 561 variables
-
 * train/y_train.txt: activity labels
-
 * rain/subject_train.txt: subject identifier
  
 #####Test set   
