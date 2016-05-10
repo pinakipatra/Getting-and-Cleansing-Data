@@ -6,25 +6,25 @@ For the Human Activity Recognition Using Samsung Galaxy Smartphone tidy dataset 
 
 Data files that are used to create TidyData  is available from the unzipped raw dataset folder ‘UCI HAR Dataset’.
 
-#####•Training set
+#####Training set
 
 * train/X_train.txt: measurements for 561 variables
 
 * train/y_train.txt: activity labels
 
 * rain/subject_train.txt: subject identifier
-* 
-#####•Test set   
+ 
+#####Test set   
 
 * test/X_test.txt: measurements for 561 variables
 * test/y_test.txt: activity labels
 * test/subject_t est.txt: subject identifier
 
-#####•Features/Variables
+#####Features/Variables
 
 * features.txt: list of all features estimated from the measured signals
 
-#####•Activities
+#####Activities
 
 * activity_labels.txt: links activity labels to activity names
 
@@ -32,11 +32,11 @@ In addition, files README.txt and features_info.txt were used to infer infer inf
 
 ###II. Notes on sumaries and omencature
 
-•	Summarie
+Summary
 
 * Variables [4:69]: are averaged, as mean values, for each subject and each activity.
 
-•	Nomenclature
+Nomenclature
 
 * body designates the volunteer person physical body.
 * FFT designates the Fast Fourier Transform.
