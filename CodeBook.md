@@ -30,25 +30,25 @@ Data files that are used to create TidyData  is available from the unzipped raw 
 
 In addition, files README.txt and features_info.txt were used to infer infer information about the raw dataset measurements, files structure,  and variables.
 
-###II. Notes on sumaries and omencature
+###II. Notes on summaries and Nomencature
 
-Summary
+**Summary**
 
 * Variables [4:69]: are averaged, as mean values, for each subject and each activity.
 
-Nomenclature
+**Nomenclature**
 
 * body designates the volunteer person physical body.
 * FFT designates the Fast Fourier Transform.
 * X  (or Y,Z) direction designates the X axial direction.
 
-###III. Variables units
+###III.Variables units
 
-•	 Variables [1:3]: categorical
-•	 Variables [4:69]: normalized and bounded within [-1,1] 
+* Variables [1:3]: categorical
+* Variables [4:69]: normalized and bounded within [-1,1] 
 
 
-###VI. Variables dictionnary
+###VI.Variables dictionnary
 
 **1.Subject**
 * Identifier assigned to the volunteer person who performed the experiment 
