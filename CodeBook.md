@@ -8,44 +8,44 @@ Data files that are used to create TidyData  is available from the unzipped raw 
 
 #####•Training set
 
-*train/X_train.txt: measurements for 561 variables
+* train/X_train.txt: measurements for 561 variables
 
-*train/y_train.txt: activity labels
+* train/y_train.txt: activity labels
 
-*train/subject_train.txt: subject identifier
+* rain/subject_train.txt: subject identifier
+* 
+#####•Test set   
 
-######•Test set
-
-*test/X_test.txt: measurements for 561 variables
-*test/y_test.txt: activity labels
-*test/subject_test.txt: subject identifier
+* test/X_test.txt: measurements for 561 variables
+* test/y_test.txt: activity labels
+* test/subject_t est.txt: subject identifier
 
 #####•Features/Variables
 
-*features.txt: list of all features estimated from the measured signals
+* features.txt: list of all features estimated from the measured signals
 
 #####•Activities
 
-*activity_labels.txt: links activity labels to activity names
+* activity_labels.txt: links activity labels to activity names
 
-In addition, files ‘README.txt’ and ‘features_info.txt’ were used to infer infer information about the raw dataset measurements, files structure, and variables.
+In addition, files README.txt and features_info.txt were used to infer infer information about the raw dataset measurements, files structure,  and variables.
 
-###II. Notes on summaries and nomenclature
+###II. Notes on sumaries and omencature
 
-•	Summaries
+•	Summarie
 
-*Variables [4:69]: are averaged, as mean values, for each subject and each activity.
+* Variables [4:69]: are averaged, as mean values, for each subject and each activity.
 
 •	Nomenclature
 
-*body designates the volunteer person physical body.
-*FFT designates the Fast Fourier Transform.
-*X (or Y,Z) direction designates the X axial direction.
+* body designates the volunteer person physical body.
+* FFT designates the Fast Fourier Transform.
+* X  (or Y,Z) direction designates the X axial direction.
 
 ###III. Variables units
 
-•	Variables [1:3]: categorical
-•	Variables [4:69]: normalized and bounded within [-1,1]
+•	 Variables [1:3]: categorical
+•	 Variables [4:69]: normalized and bounded within [-1,1] 
 
 
 ###VI. Variables dictionnary
