@@ -6,25 +6,27 @@ For the Human Activity Recognition Using Samsung Galaxy Smartphone tidy dataset 
 
 Data files that are used to create TidyData  is available from the unzipped raw dataset folder ‘UCI HAR Dataset’.
 
-•	Training set
+#####•Training set
 
-o	‘train/X_train.txt’: measurements for 561 variables
-o	‘train/y_train.txt’: activity labels
-o	‘train/subject_train.txt’: subject identifier
+*train/X_train.txt: measurements for 561 variables
 
-•	Test set
+*train/y_train.txt: activity labels
 
-o	‘test/X_test.txt’: measurements for 561 variables
-o	‘test/y_test.txt’: activity labels
-o	‘test/subject_test.txt’: subject identifier
+*train/subject_train.txt: subject identifier
 
-•	Features/Variables
+######•Test set
 
-o	‘features.txt’: list of all features estimated from the measured signals
+*test/X_test.txt: measurements for 561 variables
+*test/y_test.txt: activity labels
+*test/subject_test.txt: subject identifier
 
-•	Activities
+#####•Features/Variables
 
-o	‘activity_labels.txt’: links activity labels to activity names
+*features.txt: list of all features estimated from the measured signals
+
+#####•Activities
+
+*activity_labels.txt: links activity labels to activity names
 
 In addition, files ‘README.txt’ and ‘features_info.txt’ were used to infer infer information about the raw dataset measurements, files structure, and variables.
 
@@ -32,13 +34,13 @@ In addition, files ‘README.txt’ and ‘features_info.txt’ were used to inf
 
 •	Summaries
 
-o	Variables [4:69]: are averaged, as mean values, for each subject and each activity.
+*Variables [4:69]: are averaged, as mean values, for each subject and each activity.
 
 •	Nomenclature
 
-o	“body” designates the volunteer person physical body.
-o	“FFT” designates the Fast Fourier Transform.
-o	“X (or Y,Z) direction” designates the X axial direction.
+*body designates the volunteer person physical body.
+*FFT designates the Fast Fourier Transform.
+*X (or Y,Z) direction designates the X axial direction.
 
 ###III. Variables units
 
@@ -63,10 +65,11 @@ o	“X (or Y,Z) direction” designates the X axial direction.
 
 •	Activity number 
 •	 Type: number
+
 4.	timeBodyAccelerometer.MEAN…X
 
 •	Mean value of the body acceleration signal in the X direction 
-•	  Type: numeric
+•Type: numeric
 
 5.	timeBodyAccelerometer.MEAN…Y
 
